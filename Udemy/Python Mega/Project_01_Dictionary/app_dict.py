@@ -9,7 +9,7 @@ Takes as input a string and returns it definition if the word exists in
 English language. Has built-in spelling correction feature.
 """
 def find_word(key):
-    
+
     if key in dict_data:
         return dict_data[key]
 
@@ -17,6 +17,8 @@ def find_word(key):
 
     if key in dict_data:
         return dict_data[key]
+    elif key.upper() in dict_data:
+        return dict_data[key.upper()]
     elif len(get_close_matches(key, dict_data.keys())) > 0:
         yes_no =input("Did you mean %s instead? Enter Y for yes and N for no:"%get_close_matches(key,dict_data.keys())[0])
         if yes_no == "Y":
