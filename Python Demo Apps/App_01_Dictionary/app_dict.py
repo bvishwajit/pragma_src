@@ -5,7 +5,7 @@ from difflib import get_close_matches
 dict_data = json.load(open("data.json", "r"))
 
 """
-Takes as input a string and returns it definition if the word exists in
+Takes as input a string and returns its definition if the word exists in
 English language. Has built-in spelling correction feature.
 """
 def find_word(key):
