@@ -1,6 +1,7 @@
 WebMaps with Folium
 -------
-Libraries: Folium and Pandas. Always check if the libraries are already installed by using pip list command.
+Libraries: Folium and Pandas.
+Always check if the libraries are already installed by using pip list command.
 =======
 ---------
         1.Create and instantiate a folium Map with specified location, zoom and tiles.
