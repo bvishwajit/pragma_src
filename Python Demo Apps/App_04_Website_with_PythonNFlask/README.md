@@ -1,4 +1,6 @@
 Website using Python and Flask
 ---------------
-You will need to install flask to run this code.
-pip install flask.
+Reuired Libraries: Flask and Gunicorn.
+---
+The app simply demonstrates how to create a simple website using the Flask microframework. If you want to deploy it online and if you dont have your own domain then follow the steps in *Deployment-steps-no-database.txt*.
+<hr />
