@@ -22,5 +22,5 @@ setuptools==38.2.3
 six==1.11.0
 tornado==4.5.3
 urllib3==1.22
-Werkzeug==0.12.2
+Werkzeug==0.15.3
 wheel==0.30.0
